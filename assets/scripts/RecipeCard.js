@@ -134,7 +134,7 @@ class RecipeCard extends HTMLElement {
         // 			 Do NOT include the <article> tags within the innerHTML of the element you create.
         //           Remember to replace all the placeholders in the template with the data passed in.
         //           i.e. imgSrc, titleLnk, etc
-        shadowArticle.innerHTML = shadowArticle.innerHTML = `
+        shadowArticle.innerHTML = `
 			<img src="${data.imgSrc}" alt="${data.imgAlt}">
 			<p class="title">
 		  		<a href="${data.titleLnk}">${data.titleTxt}</a>
